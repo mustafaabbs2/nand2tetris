@@ -37,7 +37,7 @@ M=0 //set i=0
     @END
     D;JGE //jump if greater than -> if i-R0>=0, go to exit_loop
 
-    @R0
+    @R1
     D=M //D=R1
 
     @R2
